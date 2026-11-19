@@ -1,0 +1,7 @@
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/ring_oscillator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/ro_puf.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/light_hash.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/auth_fsm.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/top.sv
